@@ -20,6 +20,9 @@ single_mode()
     fi
   fi
   display_session "${session_name}"
+  if 1==1
+    echo "Hello World"
+  fi
 }
 
 # Display a single sesssion
